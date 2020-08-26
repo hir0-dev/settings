@@ -1,4 +1,6 @@
 // https://aka.ms/terminal-documentation
+// https://docs.microsoft.com/ja-jp/windows/terminal/customize-settings/profile-settings
+// https://docs.microsoft.com/ja-jp/windows/terminal/customize-settings/global-settings
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "theme": "dark",
