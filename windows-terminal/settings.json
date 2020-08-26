@@ -1,0 +1,109 @@
+// https://aka.ms/terminal-documentation
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "theme": "dark",
+    "copyOnSelect": true, // テキスト選択時、自動コピーする
+    "copyFormatting": false, // プレーンテキストでコピーする
+    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "profiles": {
+        "defaults": {
+            "fontFace": "Source Code Pro for Powerline",
+            "colorScheme": "Cobalt2",
+            "antialiasingMode": "cleartype" // テキストのアンチエイリアシングをONにする
+        },
+        "list": [
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": true
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "コマンド プロンプト",
+                "commandline": "cmd.exe",
+                "hidden": true
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "name": "PowerShell Core",
+                // "source": "Windows.Terminal.PowershellCore"
+                "commandline": "%USERPROFILE%\\scoop\\apps\\pwsh\\current\\pwsh.exe",
+                "startingDirectory": "%USERPROFILE%",
+                "hidden": false
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl",
+                "hidden": false
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure",
+                "hidden": true
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "Cobalt2",
+            "black": "#000000",
+            "red": "#ff0000",
+            "green": "#38de21",
+            "yellow": "#ffe50a",
+            "blue": "#1460d2",
+            "purple": "#ff005d",
+            "cyan": "#00bbbb",
+            "white": "#bbbbbb",
+            "brightBlack": "#555555",
+            "brightRed": "#f40e17",
+            "brightGreen": "#3bd01d",
+            "brightYellow": "#edc809",
+            "brightBlue": "#5555ff",
+            "brightPurple": "#ff55ff",
+            "brightCyan": "#6ae3fa",
+            "brightWhite": "#ffffff",
+            "background": "#132738",
+            "foreground": "#ffffff"
+        }
+    ],
+    "keybindings": [
+        {
+            "command": {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+f"
+        },
+        {
+            "command": "newTab",
+            "keys": [
+                "ctrl+t"
+            ]
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "vertical"
+            },
+            "keys": "ctrl+d"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "horizontal"
+            },
+            "keys": "ctrl+shift+d"
+        }
+    ]
+}
