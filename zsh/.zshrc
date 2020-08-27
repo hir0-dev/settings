@@ -22,6 +22,8 @@ alias open='wsl-open'
 alias dcu="docker-compose up -d --build"
 alias dcd="docker-compose down"
 alias dcl="docker-compose logs -ft"
+alias dcls="docker container ls -a"
+alias dils="docker image ls -a"
 
 ## Overwrite Key Binding
 function __zsh_clear() {
