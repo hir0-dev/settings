@@ -17,9 +17,7 @@ export LANG=ja_JP.UTF-8
 
 ## Alias
 alias open='wsl-open'
-alias dcu="docker-compose up"
-alias dcud="docker-compose up -d"
-alias dcudb="docker-compose up -d --build"
+alias dcu="docker-compose up -d --build"
 alias dcd="docker-compose down"
 alias dcl="docker-compose logs -ft"
 
