@@ -11,7 +11,9 @@
     "profiles": {
         "defaults": {
             "fontFace": "Delugia Nerd Font",
-            "antialiasingMode": "cleartype" // テキストのアンチエイリアシングをONにする
+            "antialiasingMode": "cleartype", // テキストのアンチエイリアシングをONにする
+            "useAcrylic": true,
+            "acrylicOpacity": 0.8
         },
         "list": [
             {
