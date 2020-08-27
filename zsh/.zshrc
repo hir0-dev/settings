@@ -14,6 +14,8 @@ fi
 
 ## ENV
 export LANG=ja_JP.UTF-8
+export EDITOR=vim
+export GIT_EDITOR=vim
 
 ## Alias
 alias open='wsl-open'
