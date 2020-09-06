@@ -20,6 +20,7 @@ export GIT_EDITOR=vim
 ## Alias
 alias open='wsl-open'
 alias dc="docker-compose"
+alias dl="docker logs"
 alias dcu="docker-compose up -d --build"
 alias dcd="docker-compose down"
 alias dcl="docker-compose logs -ft"
