@@ -16,7 +16,6 @@ fi
 export LANG=ja_JP.UTF-8
 export EDITOR=vim
 export GIT_EDITOR=vim
-export DOCKER_CONTENT_TRUST=1
 
 ## Alias
 alias open='wsl-open'
